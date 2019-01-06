@@ -1,0 +1,24 @@
+version: '2'
+
+services:
+
+  elasticsearch:
+    image: teamsonic/elasticsearch-search-guard:6.4.2
+    volumes:
+      - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml:ro
+      - ./var/data:/usr/share/elasticsearch/data
+      - ./elasticsearch/config/certs:/usr/share/elasticsearch/config/certs
+      - ./elasticsearch/config/sg_internal_users.yml:/usr/share/elasticsearch/plugins/search-guard-6/sgconfig/sg_internal_users.yml
+      - ./elasticsearch/config/sg_config.yml:/usr/share/elasticsearch/plugins/search-guard-6/sgconfig/sg_config.yml:ro
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    environment:
+      ES_JAVA_OPTS: "-Xmx256m -Xms256m"
+      
+  dashboard:
+      image: 'teamsonic/grabid-dashboard'
+      ports:
+          - "3000:80"
+      depends_on:
+          - elasticsearch
