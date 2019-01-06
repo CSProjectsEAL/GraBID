@@ -1,0 +1,1 @@
+*/5 * * * * /usr/bin/dotnet /var/app/Ingestion.dll >> /activity.log 2>&1

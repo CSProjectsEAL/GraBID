@@ -1,7 +1,11 @@
-version: '2'
-
+version: "3"
 services:
-
+  mongodb:
+    image: 'bitnami/mongodb:latest'
+    ports: 
+      - 27017:27017
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
   elasticsearch:
     image: teamsonic/elasticsearch-search-guard:6.4.2
     volumes:
@@ -15,10 +19,37 @@ services:
       - "9300:9300"
     environment:
       ES_JAVA_OPTS: "-Xmx256m -Xms256m"
-      
   dashboard:
       image: 'teamsonic/grabid-dashboard'
       ports:
           - "3000:80"
       depends_on:
           - elasticsearch
+  rabbit.docker:
+   image: rabbitmq:3.7.8-management-alpine
+   restart: always     
+   hostname: rabbit.docker
+   ports:
+      - "15672:15672"
+      - "5672:5672"
+  refiner:
+    image: grabid/refiner:local
+    build:     
+      context: ./src/Refiner
+    depends_on: 
+      - rabbit.docker  
+    restart: always
+  logger:
+    image: grabid/logger:local
+    build:     
+      context: ./src/Logger
+    depends_on: 
+      - rabbit.docker  
+    restart: always
+  ingestion:
+    image: grabid/ingestion:local
+    build:      
+      context: ./src/Ingestion  
+    depends_on: 
+      - rabbit.docker
+    restart: always
