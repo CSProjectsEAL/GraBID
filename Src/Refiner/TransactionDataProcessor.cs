@@ -13,7 +13,6 @@ namespace Refiner
             return dataJObject.data;
         }
         
-
         public override dynamic Process(dynamic data)
         {
             JArray processedData = new JArray();
