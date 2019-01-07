@@ -27,6 +27,22 @@ If no website shows try waiting for some minutes. If it continues not showing re
 ## Dashboard Application
 This repository includes some data previously stored in *Elasticsearch* during development, therefore when visiting the webpage for the first time you might already have a dashboard on your menu to check out.
 
+[<img src="https://github.com/CSProjectsEAL/GraBID/raw/master/images/1.png" width="230" height="118">](https://github.com/CSProjectsEAL/GraBID/raw/master/images/1.png)
+[<img src="https://github.com/CSProjectsEAL/GraBID/raw/master/images/2.png" width="230" height="118">](https://github.com/CSProjectsEAL/GraBID/raw/master/images/2.png)
+[<img src="https://github.com/CSProjectsEAL/GraBID/raw/master/images/3.png" width="230" height="118">](https://github.com/CSProjectsEAL/GraBID/raw/master/images/3.png)
+[<img src="https://github.com/CSProjectsEAL/GraBID/raw/master/images/4.png" width="230" height="118">](https://github.com/CSProjectsEAL/GraBID/raw/master/images/4.png)
+[<img src="https://github.com/CSProjectsEAL/GraBID/raw/master/images/5.png" width="230" height="118">](https://github.com/CSProjectsEAL/GraBID/raw/master/images/5.png)
+[<img src="https://github.com/CSProjectsEAL/GraBID/raw/master/images/6.png" width="230" height="118">](https://github.com/CSProjectsEAL/GraBID/raw/master/images/6.png)
+[<img src="https://github.com/CSProjectsEAL/GraBID/raw/master/images/7.png" width="230" height="118">](https://github.com/CSProjectsEAL/GraBID/raw/master/images/7.png)
+[<img src="https://github.com/CSProjectsEAL/GraBID/raw/master/images/8.png" width="230" height="118">](https://github.com/CSProjectsEAL/GraBID/raw/master/images/8.png)
+[<img src="https://github.com/CSProjectsEAL/GraBID/raw/master/images/9.png" width="230" height="118">](https://github.com/CSProjectsEAL/GraBID/raw/master/images/9.png)
+[<img src="https://github.com/CSProjectsEAL/GraBID/raw/master/images/10.png" width="230" height="118">](https://github.com/CSProjectsEAL/GraBID/raw/master/images/10.png)
+[<img src="https://github.com/CSProjectsEAL/GraBID/raw/master/images/11.png" width="230" height="118">](https://github.com/CSProjectsEAL/GraBID/raw/master/images/11.png)
+[<img src="https://github.com/CSProjectsEAL/GraBID/raw/master/images/12.png" width="230" height="118">](https://github.com/CSProjectsEAL/GraBID/raw/master/images/12.png)
+[<img src="https://github.com/CSProjectsEAL/GraBID/raw/master/images/13.png" width="230" height="118">](https://github.com/CSProjectsEAL/GraBID/raw/master/images/13.png)
+[<img src="https://github.com/CSProjectsEAL/GraBID/raw/master/images/14.png" width="230" height="118">](https://github.com/CSProjectsEAL/GraBID/raw/master/images/14.png)
+[<img src="https://github.com/CSProjectsEAL/GraBID/raw/master/images/15.png" width="230" height="118">](https://github.com/CSProjectsEAL/GraBID/raw/master/images/15.png)
+
 ## The team
 This project was developed by the 5th semester Computer Science class from [UCL](https://www.ucl.dk)
 
