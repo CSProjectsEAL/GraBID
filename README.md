@@ -1,7 +1,6 @@
-[TOCM]
-
 <img src="https://github.com/CSProjectsEAL/GraBID/raw/master/images/Logo-white.png" width="230">
-###Features
+
+## Features
 
 - Read data from remote end-points
 - Process data and store it in multiple databases
