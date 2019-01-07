@@ -22,7 +22,7 @@
 1. Go to the following address in your browser
 `http://localhost:3000`
 
-If no website shows try waiting for some minutes. If it continues not showing restart docker and try again. Still not showing? Submit a issue ⬆️👍🏻
+If no website shows try waiting for some minutes. If it continues not showing restart docker and try again. Still not showing? Submit an issue ⬆️👍🏻
 
 ## Dashboard Application
 This repository includes some data previously stored in *Elasticsearch* during development, therefore when visiting the webpage for the first time you might already have a dashboard on your menu to check out.
